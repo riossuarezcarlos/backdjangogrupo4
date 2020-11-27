@@ -1,1 +1,1 @@
-web: gunicorn disert_django.wsgi
+web: gunicorn adminusuario.wsgi
