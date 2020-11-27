@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: gunicorn disert_django.wsgi
