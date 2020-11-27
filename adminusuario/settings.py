@@ -83,9 +83,6 @@ WSGI_APPLICATION = 'adminusuario.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'OPTIONS': {
-            'options': '-c search_path=admin'
-        },
         'NAME': 'd5fhp0en9pamhr',
         'USER': 'nlqxtoymaofcwb',
         'PASSWORD': 'e01bd3ff1d4f7ff42a2f975938d7badb3f079169148b61a22584c2df67ba4b62',
@@ -94,7 +91,9 @@ DATABASES = {
     }
 }
 
-
+        # 'OPTIONS': {
+        #     'options': '-c search_path=admin'
+        # },
 
 
 # Password validation
