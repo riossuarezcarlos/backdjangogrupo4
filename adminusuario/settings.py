@@ -86,13 +86,15 @@ DATABASES = {
         'OPTIONS': {
             'options': '-c search_path=admin'
         },
-        'NAME': 'adminusuario',
-        'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'NAME': 'd5fhp0en9pamhr',
+        'USER': 'nlqxtoymaofcwb',
+        'PASSWORD': 'e01bd3ff1d4f7ff42a2f975938d7badb3f079169148b61a22584c2df67ba4b62',
+        'HOST': 'ec2-34-197-188-147.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+
 
 
 # Password validation
