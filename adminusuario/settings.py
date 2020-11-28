@@ -31,8 +31,6 @@ DEBUG = True
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['*']
 
-django_heroku.settings(locals())
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -155,3 +153,5 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+django_heroku.settings(locals(), False)
