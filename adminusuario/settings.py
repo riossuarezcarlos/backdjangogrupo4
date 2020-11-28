@@ -154,4 +154,4 @@ SIMPLE_JWT = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-django_heroku.settings(locals(), False)
+django_heroku.settings(locals(), databases=False, allowed_hosts=False)
